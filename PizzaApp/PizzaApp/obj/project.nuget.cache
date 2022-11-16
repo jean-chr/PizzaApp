@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fg6PyxVVKwFjnQ/qFxzbI1bG+wXdW4SZVcpMh8tOrz2qFuS8+H9HYfUnwKIrAJouT50iCXDM02y+iK5WsdB6Rg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jeanc\\source\\repos\\PizzaApp\\PizzaApp\\PizzaApp\\PizzaApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeanc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jeanc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jeanc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jeanc\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\jeanc\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

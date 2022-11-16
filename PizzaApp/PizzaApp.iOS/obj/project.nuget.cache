@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "zNcQVlbzyY/TAkLAYREl16/+6zIbZ7KHkb8V5yYoiQYPpqI3b4u6YKXIHW0rR6U3d++X1jJOG6pYgd5/LBRajA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jeanc\\source\\repos\\PizzaApp\\PizzaApp\\PizzaApp.iOS\\PizzaApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jeanc\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jeanc\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\jeanc\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
