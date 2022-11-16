@@ -12,6 +12,7 @@ namespace PizzaApp.Models
         public string Prixdevice { get { return Prix + " FCFA"; } }
         public string ListIngredient { get { return String.Join( " ", Ingredient); } }
 
+        public string Imageurl { get; set; }
         public Pizza() { }
     }
 
