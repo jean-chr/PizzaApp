@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PizzaApp.Models
 {
@@ -10,12 +8,12 @@ namespace PizzaApp.Models
         public int Prix { get; set; }
         public string[] Ingredient { get; set; }
         public string Prixdevice { get { return Prix + " FCFA"; } }
-        public string ListIngredient { get { return String.Join( " ", Ingredient); } }
+        public string ListIngredient { get { return String.Join(" ", Ingredient); } }
 
         public string Imageurl { get; set; }
         public Pizza() { }
     }
 
- 
+
 
 }
