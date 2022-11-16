@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.Android", "PizzaAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.iOS", "PizzaApp\PizzaApp.iOS\PizzaApp.iOS.csproj", "{9DE8E2CC-6368-4559-B29D-3858B4AA539A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp", "PizzaApp\PizzaApp\PizzaApp.csproj", "{68B691E4-7764-4591-90A6-4519AC40D8F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApp", "PizzaApp\PizzaApp\PizzaApp.csproj", "{68B691E4-7764-4591-90A6-4519AC40D8F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{B97B75A7-AEB4-460F-AA48-E7CC095605C0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
