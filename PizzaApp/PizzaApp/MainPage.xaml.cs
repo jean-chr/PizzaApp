@@ -50,7 +50,7 @@ namespace PizzaApp
                 if (maliste.SelectedItem != null)
                 {
                     Pizza item = maliste.SelectedItem as Pizza;
-                    DisplayAlert("Pizza: " + item.Nom, " Ingredients:" + item.ListIngredient, "OK" + item.Prixdevice);
+                    DisplayAlert("Pizza: " + item.nom, "Ingredients: " + item.listingredient, "OK" + item.prixdevice);
                     maliste.SelectedItem = null;
 
                 }
@@ -64,10 +64,9 @@ namespace PizzaApp
             using (var webclient = new WebClient())
             {
                 // PizzaJson = webclient.DownloadString(URL);
+                // pizzas = JsonConvert.DeserializeObject<List<Pizza>>(PizzaJson);
+
                 //foncion asynchrone 
-
-                webclient.DownloadStringAsync(new System.Uri(URL));
-
                 webclient.DownloadStringCompleted += (object sender, DownloadStringCompletedEventArgs e) =>
                 {
                     try
@@ -84,13 +83,14 @@ namespace PizzaApp
                     {
                         Device.BeginInvokeOnMainThread(() =>
                         {
-                            DisplayAlert("Erreur", "une erreur reseau " + ex.Message, "ok");
+                            DisplayAlert("Erreur", "une erreur reseau " + ex.InnerException, "ok");
                         });
                         action.Invoke(null);
 
                     }
                 };
 
+                webclient.DownloadStringAsync(new System.Uri(URL));
             }
         }
 

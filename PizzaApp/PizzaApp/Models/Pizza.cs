@@ -6,14 +6,15 @@ namespace PizzaApp.Models
     public class Pizza
     {
 
-        public string Nom { get; set; }
-        public int Prix { get; set; }
-        public string[] Ingredient { get; set; }
-        public string Prixdevice { get { return Prix + " FCFA"; } }
-        public string ListIngredient { get { return String.Join(", ", Ingredient); } }
+        public string nom { get; set; }
+        public int prix { get; set; }
+        public string[] ingredient { get; set; }
+        public string prixdevice { get { return prix + " FCFA"; } }
+        public string listingredient { get { return String.Join(", ", ingredient); } }
+
        // public string Titre { get{ return Nom.PremierletttreMaj(); } }
 
-        public string Imageurl { get; set; }
+        public string imageurl { get; set; }
         public Pizza() { }
     }
 
