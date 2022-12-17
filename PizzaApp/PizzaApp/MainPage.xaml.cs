@@ -87,7 +87,7 @@ namespace PizzaApp
                             DisplayAlert("Erreur", "une erreur reseau " + ex.Message, "ok");
                         });
                         action.Invoke(null);
-             
+
                     }
                 };
 
